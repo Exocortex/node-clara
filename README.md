@@ -6,11 +6,11 @@
 
 ## API Overview
 
-Create a `clara` instance with your api token:
+Create a `clara` instance with your api token and username:
 
 ```js
 // Visit https://clara.io/settings/api for your api token
-var clara = require('clara')('your api token');
+var clara = require('clara')('your-api-token', 'your-username');
 ```
 
 Every resource method returns a promise, or accepts an optional callback.
@@ -46,6 +46,7 @@ $ clara scenes:get  --auth <authKey> --username <username> <sceneId>
   * [`list(params)`](https://clara.io/learn/sdk/api/list-scenes)
   * [`create(params)`](https://clara.io/learn/sdk/api/create-scene)
   * [`update(params)`](https://clara.io/learn/sdk/api/update-scene)
+  * [`import(params)`](https://clara.io/learn/sdk/api/import)
 
 ## Configuration
 
