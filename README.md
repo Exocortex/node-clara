@@ -41,12 +41,12 @@ $ clara scenes:get  --apiToken <apiToken> --username <username> <sceneId>
 
 ## Available resources and methods
 
+
 * scenes
-  * [`get(params)`](https://clara.io/learn/sdk/api/list-scenes)
-  * [`list(params)`](https://clara.io/learn/sdk/api/list-scenes)
-  * [`create(params)`](https://clara.io/learn/sdk/api/create-scene)
-  * [`update(params)`](https://clara.io/learn/sdk/api/update-scene)
-  * [`import(params)`](https://clara.io/learn/sdk/api/import)
+  * scenes:list [options]              List public scenes
+  * scenes:get <sceneId>               Get scene data
+  * scenes:import [options] <sceneId>  Import a file into the scene
+  * scenes:render [options] <sceneId>  Render an image
 
 ## Configuration
 
