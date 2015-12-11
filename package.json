@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
+    "json-query": "^1.5.0",
     "npmlog": "^2.0.0",
     "query-string": "^3.0.0",
     "ramda": "^0.18.0",
