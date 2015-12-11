@@ -36,13 +36,13 @@ All commands are available from the command line runner as well.
 ```bash
 $ clara --help
 $ clara scenes:get --help
-$ clara scenes:get  --auth <authKey> --username <username> <sceneId>
+$ clara scenes:get  --apiToken <apiToken> --username <username> <sceneId>
 ```
 
 ## Available resources and methods
 
 * scenes
-  * [`get(sceneId)`](https://clara.io/learn/sdk/api/list-scenes)
+  * [`get(params)`](https://clara.io/learn/sdk/api/list-scenes)
   * [`list(params)`](https://clara.io/learn/sdk/api/list-scenes)
   * [`create(params)`](https://clara.io/learn/sdk/api/create-scene)
   * [`update(params)`](https://clara.io/learn/sdk/api/update-scene)
