@@ -28,8 +28,10 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
+    "config-chain": "^1.1.9",
     "json-query": "^1.5.0",
     "npmlog": "^2.0.0",
+    "osenv": "^0.1.3",
     "query-string": "^3.0.0",
     "ramda": "^0.18.0",
     "superagent": "^1.5.0",
