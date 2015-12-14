@@ -65,7 +65,7 @@ $ clara --apiToken <apiToken> --username <username> scenes:get <sceneId>
 
 ## Configuration
 
-There are several ways to set up the configuration data, in order of preference:
+There are several ways to set up the configuration data, from highest to lowest priority:
 
 1. Pass directly (through function call, or command line).
 
