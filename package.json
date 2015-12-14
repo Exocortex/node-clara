@@ -6,7 +6,7 @@
   "bin": "bin/clara.js",
   "scripts": {
     "clara": "node ./bin/clara.js",
-    "test": "mocha --compilers js:babel-core/register test/*.js"
+    "test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
