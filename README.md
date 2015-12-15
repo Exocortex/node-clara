@@ -62,18 +62,26 @@ $ clara --apiToken <apiToken> --username <username> scenes:get <sceneId>
 
 ## Available resources and methods
 
-* scenes
-  * scenes:list [options]                List public scenes
-  * scenes:create [options]              Create a new scene
-  * scenes:update [options] <sceneId>    Update a scene
-  * scenes:get <sceneId>                 Get scene data
-  * scenes:delete <sceneId>              Delete a scene
-  * scenes:clone <sceneId>               Clone a scene
-  * scenes:import [options] <sceneId>    Import a file into the scene
-  * scenes:export <sceneId> <extension>  Export a scene
-  * scenes:render [options] <sceneId>    Render an image
-  * set <key> <val>                      Set a configuration value to $HOME/.clara.json
-  * get <key>                            Return the current configuration for <key>
+  * scenes:library [options]                               List public scenes
+  * scenes:list [options]                                  List your scenes
+  * scenes:create [options]                                Create a new scene
+  * scenes:update [options] <sceneId>                      Update a scene
+  * scenes:get <sceneId>                                   Get scene data
+  * scenes:delete <sceneId>                                Delete a scene
+  * scenes:clone <sceneId>                                 Clone a scene
+  * scenes:import [options] <sceneId>                      Import a file into the scene
+  * scenes:export <sceneId> <extension>                    Export a scene
+  * scenes:render [options] <sceneId>                      Render an image
+  * scenes:command [options] <sceneId> <plugin> <command>  Run a command
+  * jobs:list [options]                                    List your jobs
+  * jobs:get <jobId>                                       Get job data
+  * user:get                                               Get User Profile
+  * user:update [options]                                  Update user profile
+  * webhooks:list [options]                                List webhooks
+  * webhooks:create [options]                              Create a webhook
+  * webhooks:update [options] <webhookId>                  Update a webhook
+  * set <key> <val>                                        Set a configuration value to $HOME/.clara.json
+  * get <key>                                              Return the current configuration for <key>
 
 ## Configuration
 
