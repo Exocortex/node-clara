@@ -33,8 +33,20 @@ clara.scenes.list().then(function(scenes) {
 With callbacks:
 
 ```js
-clara.scenes.list(function(err, scenes) {
+clara.scenes.list({}, function(err, scenes) {
 });
+```
+
+The parameters for each resource method are:
+
+* queryOptions: {Object} Any query parameters required for the call. 
+* params: {Object|String} (Optional) The data for the method. If this is a string, 
+  the library will expect a filename to a json file that will be parsed and sent.
+* callback: {Function}
+
+```js
+clara.scenes.update({sceneId: 'scene-id'}, './scene.json', function(err, result) {});
+clara.scenes.create({}, function(err, newScene) {});
 ```
 
 
