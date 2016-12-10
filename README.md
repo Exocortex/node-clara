@@ -70,6 +70,7 @@ $ clara --apiToken <apiToken> --username <username> scenes:get <sceneId>
   * scenes:delete <sceneId>                                Delete a scene
   * scenes:clone <sceneId>                                 Clone a scene
   * scenes:import [options] <sceneId>                      Import a file into the scene
+  * scenes:importOptimized [options] <sceneId>             Import a file into the scene, taking care to not reupload shared assets
   * scenes:export <sceneId> <extension>                    Export a scene
   * scenes:render [options] <sceneId>                      Render an image
   * scenes:command [options] <sceneId> <plugin> <command>  Run a command
@@ -130,7 +131,17 @@ $ clara set apiToken your-api-token
 $ clara set username your-username
 $ clara scenes:get scene-uuid
 ```
+### Configuration Variables
 
+Available configuration and their defaults:
+
+```
+  apiToken: null,
+  dryRun: false,
+  host: 'https://clara.io',
+  logLevel: 'info', // silly, verbose, info, warn, error, silent
+  username: null
+```
 
 ## Development
 
