@@ -1,6 +1,6 @@
 {
   "name": "clara",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Clara.io API wrapper",
   "main": "lib/index.js",
   "bin": "bin/clara.js",
@@ -31,7 +31,7 @@
     "commander": "^2.9.0",
     "config-chain": "^1.1.9",
     "es6-promise": "^3.0.2",
-    "json-query": "^1.5.0",
+    "json-query": "^1.8.0",
     "md5-file": "^2.0.4",
     "npmlog": "^2.0.0",
     "osenv": "^0.1.3",
