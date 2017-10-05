@@ -1,6 +1,6 @@
 {
   "name": "clara",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Clara.io API wrapper",
   "main": "lib/index.js",
   "bin": "bin/clara.js",
